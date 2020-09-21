@@ -1,6 +1,6 @@
 # Serverless Web Application with AppSync Workshop
 
-<a href="https://www.youtube.com/watch?v=sQN28Jo-nak" target="_blank"><img src="images/twitch.png" align="center" width="500" alt="Serverless Bytes | Building a Serverless GraphQL App"></a>
+<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.ca%2Fsoftlookup-com-Free-Weather-Forecast%2Fdp%2FB07R4JV6F5&psig=AOvVaw0OvgycEay1gs9IlTrDfgKe&ust=1600765079993000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiS0eTw-esCFQAAAAAdAAAAABAD" target="_blank"><img src="images/twitch.png" align="center" width="500" alt="Serverless Bytes | Building a Serverless GraphQL App"></a>
 <br />
 Follow along this workshop on <a href="https://www.youtube.com/watch?v=sQN28Jo-nak" target="_blank">YouTube</a>.
 
