@@ -7,10 +7,17 @@ import AllDestinations from "./Components/AllDestinations";
 import AddDestination from "./Components/AddDestination";
 import NewDestinationsSubscription from './Queries/NewDestinationsSubscription';
 
-import AWSAppSyncClient from "aws-appsync";
-import { Rehydrated } from 'aws-appsync-react';
-import { AUTH_TYPE } from "aws-appsync/lib/link/auth-link";
-import { graphql, ApolloProvider, compose } from 'react-apollo';
+//import AWSAppSyncClient from "aws-appsync"; Repetition of import statement on line 15
+import { Rehydrated } from 'aws-appsync-react'; //Create my own rehydrated component below
+
+//import Rehydrated from './Components/Rehydrated';
+
+//import { AUTH_TYPE } from "aws-appsync/lib/link/auth-link"; Fixed below
+import AWSAppSyncClient, { AUTH_TYPE } from "aws-appsync";
+
+import { graphql, ApolloProvider } from 'react-apollo'; //Used to be {graphql, ApolloProvider, compose }, fixed compose below with flowRight alias to the name
+import * as compose from 'lodash.flowright';
+
 import * as AWS from 'aws-sdk';
 import AppSync from './aws-exports.js';
 import AllDestinationsQuery from './Queries/AllDestinationsQuery';
@@ -59,7 +66,7 @@ const Home = () => (
     <header className="App-header" style={appHeaderStyle}>
       <h2 class="ui center aligned icon header">
         <img src="https://d1.awsstatic.com/serverless/Lambda%20Resources%20images/sam_acorn_shadow.8915b92ddd48a78d8c05d55ce4b26e472889c573.png" className="App-logo" alt="logo" />
-        <span style={headerStyle}>Welcome to Serverless Bytes #3: Serverless Web App powered by AWS AppSync</span>
+        <span style={headerStyle}>Welcome to my Destinations App: Serverless Web App powered by AWS AppSync</span>
       </h2>
     </header>
 

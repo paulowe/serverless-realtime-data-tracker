@@ -1,0 +1,15 @@
+projects:
+  TravelApp:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - (src/Queries/*.js)
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
+        region: us-east-2
+        apiId: nwb77jxnlzbwvhrt4k2rcjmicy
+        maxDepth: 2
