@@ -2,7 +2,7 @@
 
 <a href="http://paulowe-destination-site.s3-website.us-east-2.amazonaws.com" target="_blank"><img src="images/appsync.png" align="center" width="500" alt="Serverless Bytes | Building a Serverless GraphQL App"></a>
 <br />
-Follow along this workshop on <a href="https://www.youtube.com/watch?v=sQN28Jo-nak" target="_blank">YouTube</a>.
+Try out the <a href="https://www.youtube.com/watch?v=sQN28Jo-nak" target="_blank"><strong>Demo here</strong></a>.
 
 This workshop shows you how easy it is to build a data driven web applications all with no servers. You will build a serverless web application that lets users search for popular tourist destinations. The application will provide real-time weather analysis of the indexed destinations.
 
