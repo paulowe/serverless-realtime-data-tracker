@@ -1,4 +1,4 @@
-# Serverless Web Application with AppSync Workshop
+# Serverless Web Application with AppSync
 
 <a href="http://paulowe-destination-site.s3-website.us-east-2.amazonaws.com" target="_blank"><img src="images/appsync.png" align="center" width="500" alt="Serverless Bytes | Building a Serverless GraphQL App"></a>
 <br />
