@@ -45,7 +45,7 @@ const client = new AWSAppSyncClient({
       // jwtToken: async () => (await Auth.currentSession()).getIdToken().getJwtToken(),
   },
   options: {
-    fetchPolicy: 'cache-and-network'
+    fetchPolicy: 'no-cache'
   },
   disableOffline:false  
 });
@@ -98,7 +98,7 @@ const App = () => (
 const AllDestinationsWithData = compose(
   graphql(AllDestinationsQuery, {
       options: {
-          fetchPolicy: 'cache-and-network'
+          fetchPolicy: 'no-cache'
       },
       props: (props) => ({
         destinations: props.data.getAllDestinations,
@@ -150,7 +150,7 @@ const AllDestinationsWithData = compose(
 
             dataProxy.writeQuery({ query, data });
         },
-        fetchPolicy: 'cache-and-network',
+        fetchPolicy: 'no-cache',
         disableOffline:false  
     }
   })(AddDestination);
@@ -163,4 +163,4 @@ const AllDestinationsWithData = compose(
     </ApolloProvider>
 );
 
-export default WithProvider;
+export default WithProvider; 
